@@ -15,7 +15,7 @@ func init() {
 func main() {
 	r := gin.Default()
 
-	r.POST("/api", controllers.PostCreate)
+	r.POST("/api", controllers.CreateUser)
 	r.GET("/api", controllers.FetchAllUsers)
 	r.GET("/api/:id", controllers.FetchUserById)
 	r.PUT("/api/:id", controllers.UpdateUserName)
