@@ -20,7 +20,7 @@ The Person API is a simple yet powerful RESTT API that allows you to manage info
     * Body: 
       ```json
       {
-      "ID": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxx",
+      "ID": "57884dce-2fc9-40a8-bdfd-7e0c58b41dc8",
       "Name": "user_name",
       "CreatedAt": "2023-09-13T14:00:54.96446Z",
       "UpdatedAt": "2023-09-13T14:00:54.96446Z",
@@ -42,7 +42,7 @@ The Person API is a simple yet powerful RESTT API that allows you to manage info
     * Body: 
       ```json
       {
-      "ID": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxx",
+      "ID": "57884dce-2fc9-40a8-bdfd-7e0c58b41dc8",
       "Name": "user_name",
       "CreatedAt": "2023-09-13T14:00:54.96446Z",
       "UpdatedAt": "2023-09-13T14:00:54.96446Z",
@@ -68,7 +68,7 @@ The Person API is a simple yet powerful RESTT API that allows you to manage info
     * Body: 
       ```json
       {
-      "ID": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxx",
+      "ID": "57884dce-2fc9-40a8-bdfd-7e0c58b41dc8",
       "Name": "new_user_name",
       "CreatedAt": "2023-09-13T14:00:54.96446Z",
       "UpdatedAt": "2023-09-13T14:00:54.96446Z",
@@ -100,7 +100,7 @@ To begin using the Person API locally, follow these steps:
 1. [Install Go](https://go.dev/dl/)
 2. Clone the GitHub repository: ```git clone https://github.com/Pro-282/hngxstage2task.git```
 3. cd into hngxstage2task folder.
-4. Update the .env file to contain the PORT AND DB_URL variable as seen below.
+4. Update the .env file to contain the PORT and DB_URL variable as seen below.
     ``` 
     PORT=3000
     DB_URL="host=example.postgres.com user=user password=password dbname=dbname port=5432 sslmode=disable"
@@ -115,7 +115,7 @@ To begin using the Person API locally, follow these steps:
 ## Known Limitations and Assumptions
 1. This API uses Postgres DB for demonstration purposes, you could use any DB of your choice by altering ```gorm.Open()``` in ```initializers/database.go``` file.
 2. No userAuth of any kind. Ensure secure access to your API in a real-world scenario.
-3. This documentation assumes that the developer is well acquainted Golang, Gorm ORM and the Gin framework.
+3. This documentation assumes that the developer is well acquainted with  Golang, Gorm ORM and the Gin framework.
 
 ## Conclusion
 The Person API simplifies the process of managing person records within your application. Whether you're building a personal information management system, a contact list, or any other application that requires person-related data, the Person API can help you get started quickly.
